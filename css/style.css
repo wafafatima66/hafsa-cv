@@ -1,0 +1,340 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+.cv-full {
+    height: 200vh;
+    width: 900px;
+    margin: 0 auto;
+    background-color: #ebebe0;
+    
+}
+.cv-left {
+  width: 30%;
+  background-color: #1f1f14;
+  float:left;
+  height: 200vh;
+}
+.image {
+    height: 200px;
+    overflow: hidden;
+    background-image: cover;
+}
+.image img {
+      width: 200px;
+      padding-top:55px;
+      padding-left:38px;
+
+}
+.name {
+    height: 100px;
+    background-color:#00cc00;
+    
+}
+.name h1 {
+    color:white;
+    font-size: 20px;
+    margin-left:21px;
+    padding-top:25px;
+
+}
+.name h4 {
+    color:white;
+    font-size: 15px;
+    margin-left: 63px;
+}
+.contact {
+text-align: justify;
+color:white;
+font-size: 15px;
+}
+.contact h1 {
+    text-align: left;
+    color:white;
+    font-size: 30px;
+    margin-top:35px;
+}
+.contact-border {
+    width: 270px;
+    height: 2px;
+    background-color: #00cc00;
+    margin-top:8px;
+    margin-bottom:8px;
+    }
+.skill {
+    height: 365px;
+    overflow: hidden;
+    margin-top:20px;
+   
+    }
+.skill h1 {
+    text-align: left;
+    color:white;
+    font-size: 30px;
+    }
+.skill-border {
+        width: 270px;
+        height: 2px;
+        background-color: #00cc00;
+        margin-top:8px;
+        margin-bottom:8px;
+        }
+.skill-name {
+    width: 70px;
+
+    float:left;
+
+}
+.skill-name p {
+    font-size: 15px;
+    color:white;
+    text-align: justify;
+    line-height: 33px;
+    margin-top:20px;
+    margin-left: 6px;
+
+}
+.skill-parcentage {
+    width: 165px;
+    float: right;
+}
+
+.border-html {
+    width: 160px;
+    height: 7px;
+    background-color:#00cc00;
+    margin-top:36px;
+    margin-bottom:40px;
+    border-radius: 30px;
+    }
+    .border-css {
+        width: 160px;
+        height: 7px;
+        background-color:#00cc00;
+       
+        margin-bottom:40px;
+        border-radius: 30px;
+        }
+        .border-bootstrap {
+            width: 160px;
+            height: 7px;
+            background-color:#00cc00;
+           
+            margin-bottom:40px;
+            border-radius: 30px;
+            }
+            .border-c {
+                width: 160px;
+                height: 7px;
+                background-color:#00cc00;
+               
+                margin-bottom:39px;
+                border-radius: 30px;
+                }
+                .border-java {
+                    width: 160px;
+                    height: 7px;
+                    background-color:#00cc00;
+                    
+                    margin-bottom:40px;
+                    border-radius: 30px;
+                    }
+                    .language h1 {
+                        text-align: left;
+                        color:white;
+                        font-size: 30px;
+                        }
+
+
+.cv-right {
+    width: 65%;
+    background-color:#ebebe0;
+    float: right;
+}
+.about {
+    text-align: justify;
+    color:  #00cc00;
+    font-size: 15px;
+    padding-top: 70px;
+    }
+    .about h1 {
+        text-align: left;
+        color:black;
+        font-size: 30px;
+        scroll-margin-left: 5px;
+    }
+    .about p {
+        font-size:17px;
+        color:black;
+        text-align: justify;
+        margin-top: 10px;
+        margin-right:15px;
+    }
+    .about-border {
+        width: 585px;
+        height: 4px;
+        background-color: #00cc00;
+        margin-top:8px;
+        margin-bottom:8px;
+        }
+    .education {
+            text-align: justify;
+            color:  #00cc00;
+            font-size: 15px;
+            padding-top: 30px;
+            }
+    .education h1{
+                text-align: left;
+                color:black;
+                font-size: 30px;
+                scroll-margin-left: 5px;
+            }
+    .education-border {
+                width: 585px;
+                height: 4px;
+                background-color: #00cc00;
+                margin-top:8px;
+                margin-bottom:8px;
+                }
+    .university {
+        margin-top: 15px;
+    }
+    .university h1 {
+        color:black;
+        font-size: 20px;
+
+    }
+    .university h2 {
+        color:black;
+        font-size: 14px;
+        
+    }
+    .university h3 {
+        color:black;
+        font-size: 14px;
+        
+    }
+    .university p {
+        color:black;
+        font-size: 14px;
+        
+    }
+    .university-border {
+        width: 130px;
+        height: 2px;
+        background-color: #00cc00;
+        margin-top:8px;
+        margin-bottom:8px;
+        }
+        .collage {
+            margin-top: 15px;
+        }
+        .collage h1 {
+            color:black;
+            font-size: 20px;
+    
+        }
+        .collage h2 {
+            color:black;
+            font-size: 14px;
+            
+        }
+        .collage h3 {
+            color:black;
+            font-size: 14px;
+            
+        }
+        .collage p {
+            color:black;
+            font-size: 14px;
+            
+        }
+        .collage-border {
+            width: 101px;
+            height: 2px;
+            background-color: #00cc00;
+            margin-top:8px;
+            margin-bottom:8px;
+            }
+            .school { 
+                margin-top: 15px;
+            }
+            .school h1 {
+                color:black;
+                font-size: 20px;
+        
+            }
+            .school h2 {
+                color:black;
+                font-size: 14px;
+                
+            }
+            .school h3 {
+                color:black;
+                font-size: 14px;
+                
+            }
+            .school p {
+                color:black;
+                font-size: 14px;
+                
+            }
+            .school-border {
+                width: 58px;
+                height: 2px;
+                background-color: #00cc00;
+                margin-top:8px;
+                margin-bottom:8px;
+                }
+    .experience {
+        text-align: justify;
+        color:  #00cc00;
+        font-size: 15px;
+        padding-top: 50px;
+        }
+        .experience h1 {
+            text-align: left;
+            color:black;
+            font-size: 30px;
+            scroll-margin-left: 5px;
+        }
+        .experience p {
+            font-size:17px;
+            color:black;
+            text-align: justify;
+            margin-top: 10px;
+            margin-right:15px;
+        }
+        .experience-border {
+            width: 585px;
+            height: 4px;
+            background-color: #00cc00;
+            margin-top:8px;
+            margin-bottom:8px;
+            } 
+            .references {
+                text-align: justify;
+                color:  #00cc00;
+                font-size: 15px;
+                padding-top: 70px;
+                }
+                .references h1 {
+                    text-align: left;
+                    color:black;
+                    font-size: 30px;
+                    scroll-margin-left: 5px;
+                }
+                .references p {
+                    font-size:17px;
+                    color:black;
+                    text-align: justify;
+                    margin-top: 10px;
+                    margin-right:15px;
+                }
+                .references-border {
+                    width: 585px;
+                    height: 4px;
+                    background-color: #00cc00;
+                    margin-top:8px;
+                    margin-bottom:8px;
+                    }       
